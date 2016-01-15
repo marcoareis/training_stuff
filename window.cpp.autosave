@@ -162,10 +162,6 @@ QGroupBox* Window::createTheValue() // create the BOXES, which will be filled wi
 
 void Window::timeout() {            // this is executed every time a second is elapsed, so each second corresponds to a line
 
-//    if (places > 17){
-//        places = 0;
-//    }
-
     if (!isPaused)
     {
         s = std::to_string(places);
@@ -183,9 +179,6 @@ void Window::timeout() {            // this is executed every time a second is e
     }
 
 
-//    if (places == 0){
-//        places = 17;
-//    }
 }
 
 void Window::HandleButtonPrevious()

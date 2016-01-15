@@ -13,11 +13,9 @@ TEMPLATE = app
 
 
 SOURCES += main.cpp\
-        window.cpp \
-    mytimer.cpp
+        window.cpp
 
-HEADERS  += window.h \
-    mytimer.h
+HEADERS  += window.h
 
 FORMS   += window.ui
 
